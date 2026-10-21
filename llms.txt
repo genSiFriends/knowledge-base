@@ -1,0 +1,16 @@
+# GenAI Tools Knowledge Base
+
+> Curated, LLM-optimized research wiki and knowledge base for generative AI developer tools, autonomous coding agents, and agentic workflows.
+> Conforms to the AgentWikis / llms.txt standard with clean frontmatter, structured Markdown, and dense technical synthesis.
+
+## Herdr
+
+> Terminal workspace manager and session multiplexer built specifically for AI coding agents (Claude Code, Codex, Antigravity CLI, OpenCode, Pi, etc.).
+> Covers: Architecture, session/workspace/pane primitives, agent lifecycle states (idle, working, blocked, done, unknown), containerized/cloud workspace deployment (Docker, Coder, headless server, socket API, remote SSH federation), and the plugin ecosystem (community picks and active local extensions).
+> Current as of: 2026-10-21 (Herdr v0.9.5)
+
+- [Herdr Master Index](herdr/README.md): Topic navigation, document overview, conceptual flowchart, and CLI/plugin command cheat sheet.
+- [Overview & Architecture](herdr/overview.md): What Herdr is, client-daemon architecture, core primitives (sessions, workspaces, tabs, panes, agents), deep dive into the 5 agent lifecycle states, bottom-buffer detection, and native agent hook integrations.
+- [Containerized & Cloud Workspace Guide](herdr/setup-and-usage-guide.md): Production setup for Docker and cloud VPS dev environments (non-root developer user, Dockerfile/Compose blueprints, headless server daemon `herdr server`, socket configuration, SSH remote machine attachment, and VS Code / Cursor remote workflows).
+- [Plugins & Extensions Catalog](herdr/plugins.md): Herdr plugin architecture (manifests, argv execution, environment variables), 5-minute safety vetting checklist, top 10 community plugins (Reviewr, Zoetrope, Agent Usage, etc.), deep dive into active local plugins (`herdr-web-ui`, `herdr-radar`, `auto-title`, `memex`, `agent-router`, `reviewr`), and native agent hooks.
+- [References & Sources](herdr/references.md): Annotated bibliography and source links for official documentation, Datalumina cloud guides, Bitdoze marketplace analyses, and local system configurations.
